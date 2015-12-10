@@ -51,8 +51,8 @@
     CGContextClosePath(content);
     CGContextClip(content);
     
-    NSURL *url = [NSURL URLWithString:_urlStr];
-    NSData *iconData = [NSData dataWithContentsOfURL:url];
+//    NSURL *url = [NSURL URLWithString:_urlStr];
+//    NSData *iconData = [NSData dataWithContentsOfURL:url];
 //    UIImage *image = [UIImage sd_imageWithData:iconData];
     UIImage *image = [UIImage imageNamed:@"IMG_0653.JPG"];
     UIImage *img = [self imageCompressForWidth:image targetWidth:R];

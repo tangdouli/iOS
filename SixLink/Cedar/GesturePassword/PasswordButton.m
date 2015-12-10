@@ -104,7 +104,7 @@
     
     CGContextClip(content);
     
-    UIImage *image = [UIImage imageNamed:@"180.png"];
+//    UIImage *image = [UIImage imageNamed:@"180.png"];
 //    UIImage *img = [self imageCompressForWidth:image targetWidth:R];
     
 //    [img drawAtPoint:CGPointMake(0, 0)];

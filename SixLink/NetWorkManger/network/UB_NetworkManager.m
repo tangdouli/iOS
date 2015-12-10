@@ -1,9 +1,9 @@
 //
 //  UB_NetworkManager.m
-//  Ubankers
+//  SixLink
 //
-//  Created by 袁斌 on 15/11/5.
-//  Copyright © 2015年 Rong An. All rights reserved.
+//  Created by 萝卜 on 15/11/9.
+//  Copyright © 2015年 Ubankers. All rights reserved.
 //
 
 #import "UB_NetworkManager.h"

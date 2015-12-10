@@ -167,7 +167,7 @@
         timecount = 60;
         _timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(beginFired:) userInfo:nil repeats:YES];
     
-        NSDictionary *parmas = [NSDictionary dictionaryWithObjectsAndKeys:[DesUtility desStringFromText:_mobileInput.text],@"mobile", nil];
+//        NSDictionary *parmas = [NSDictionary dictionaryWithObjectsAndKeys:[DesUtility desStringFromText:_mobileInput.text],@"mobile", nil];
         
         _voiceRecognition.enabled = NO;
         _getSecurityBtn.enabled = NO;

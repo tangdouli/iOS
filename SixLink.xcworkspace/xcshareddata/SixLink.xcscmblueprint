@@ -1,16 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "73944f15-ad70-4617-9233-6b40a2ec19d6++5791",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "22D78F180E98C8A5950045374163FA2503B50474",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "73944f15-ad70-4617-9233-6b40a2ec19d6++5791" : {
+    "22D78F180E98C8A5950045374163FA2503B50474" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "73944f15-ad70-4617-9233-6b40a2ec19d6++5791" : 0
+    "22D78F180E98C8A5950045374163FA2503B50474" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "768B5070-239E-4AB6-94C5-9C264D5F9217",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "73944f15-ad70-4617-9233-6b40a2ec19d6++5791" : "SixLink\/"
+    "22D78F180E98C8A5950045374163FA2503B50474" : "SixLink\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SixLink",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,7 +19,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.220\/svn\/source",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73944f15-ad70-4617-9233-6b40a2ec19d6++5791"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22D78F180E98C8A5950045374163FA2503B50474"
     }
   ]
 }
