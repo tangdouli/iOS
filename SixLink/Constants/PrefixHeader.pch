@@ -1,0 +1,70 @@
+//
+//  PrefixHeader.pch
+//  SixDegreesFinancial
+//
+//  Created by 萝卜 on 15/11/6.
+//  Copyright © 2015年 Ubankers. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef DEBUG
+#define UBLog(...) NSLog(__VA_ARGS__)
+#else
+#define UBLog(...)
+#endif
+
+
+#import     "Begonia.h"
+
+#import     "Radish.h"
+
+#import     "Cedar.h"
+//工具类
+#import "Tool.h"
+
+#import "Tool+Login.h"
+
+//键盘管理
+#import "IQKeyboardManager.h"
+
+//父控制器
+#import "SuperViewController.h"
+//弹窗
+#import <MBProgressHUD.h>
+//网络
+#import "AFNetworking.h"
+//网络请求
+#import "UB_NetworkManager.h"
+
+//字典转模型
+#import "MJExtension.h"
+
+//图片
+#import <SDImageCache.h>
+#import <UIImageView+WebCache.h>
+//数据库
+#import <FMDB.h>
+//刷新
+#import <MJRefresh.h>
+
+//16进制颜色设值
+#define UB_COLOR(colorStr) [Tool hexStringToColor:colorStr]
+//导航字体样式
+#define App_MiddleFont @"HelveticaNeue-Bold"
+#define BarColor [UIColor blackColor]
+//导航字体颜色
+#define BarTxtColor [UIColor blackColor]
+#define BarTintColor [UIColor whiteColor]
+#define BarTitle_Font [UIFont fontWithName:App_MiddleFont size:17] //导航字体大小
+#define COOKIENAME @"AUTHORIZATION" //未知
+#import "ViewController.h"
+#import "LoginController.h"
+#import "LoginCredential.h"
+
+
+#endif /* PrefixHeader_pch */
